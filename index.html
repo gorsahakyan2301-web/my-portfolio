@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Gor | Portfolio</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -13,7 +15,10 @@
 
     <header>
         <nav class="navbar">
-            <div class="logo">Gor<span>.dev</span></div>
+
+            <div class="logo">
+                Gor<span>.dev</span>
+            </div>
 
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
@@ -22,38 +27,47 @@
                 <li><a href="#certificates">Certificates</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
+
         </nav>
     </header>
 
+
+    <!-- HERO -->
     <section class="hero">
-        <div class="hero-content">
+        <div class="hero-container">
 
-            <h1>Hi, I'm <span>Gor</span></h1>
+            <div class="hero-content">
+                <h1>Hi, I'm <span>Gor</span></h1>
 
-            <p>Python & JavaScript Developer</p>
+                <p class="hero-role">Python & JavaScript Developer</p>
 
-            <div class="hero-buttons">
+                <p class="hero-description">
+                    I build clean, efficient, and maintainable software using
+                    Python, JavaScript, and modern web technologies.
+                </p>
 
-                <a href="#projects" class="btn">
-                    View Projects
-                </a>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn">View Projects</a>
 
-                <!-- Download CV -->
-                <a href="assets/Gor-Sahakyan-CV.pdf"
-                   class="btn"
-                   download>
-                    Download CV
-                </a>
+                    <a href="assets/Gor-Sahakyan-CV.pdf"
+                    class="btn"
+                    target="_blank">
+                        View CV
+                    </a>
 
-                <a href="#contact" class="btn-outline">
-                    Contact Me
-                </a>
+                    <a href="#contact" class="btn-outline">Contact Me</a>
+                </div>
+            </div>
 
+            <div class="hero-image">
+                <img src="assets/profile.png" alt="Gor Sahakyan">
             </div>
 
         </div>
     </section>
 
+
+    <!-- ABOUT -->
     <section id="about" class="section">
 
         <h2>About Me</h2>
@@ -62,24 +76,33 @@
             I am a Software Developer specializing in
             <strong>Python</strong> and
             <strong>JavaScript</strong>,
-            with a strong foundation in Object-Oriented Programming (OOP),
-            Data Structures, and Core Algorithms.
+            with a strong foundation in
+            Object-Oriented Programming (OOP),
+            Data Structures,
+            and Core Algorithms.
         </p>
 
         <br>
 
         <p>
-            Rather than just writing basic scripts, I focus on building
-            scalable architecture, optimizing performance
-            (from time complexity $O(n)$ down to $O(1)$ operations),
-            and writing modular, highly maintainable code.
+            Rather than just writing basic scripts,
+            I focus on building scalable architecture,
+            optimizing performance,
+            and writing modular,
+            highly maintainable code.
+
             Whether it's complex game logic like custom chess engines,
-            efficient queue systems, or dynamic front-end interfaces,
-            I build software with logic, precision, and efficiency in mind.
+            efficient queue systems,
+            or dynamic front-end interfaces,
+            I build software with logic,
+            precision,
+            and efficiency in mind.
         </p>
 
     </section>
 
+
+    <!-- SKILLS -->
     <section id="skills" class="section">
 
         <h2>Skills</h2>
@@ -110,6 +133,8 @@
 
     </section>
 
+
+    <!-- PROJECTS -->
     <section id="projects" class="section">
 
         <h2>Featured Projects</h2>
@@ -132,18 +157,23 @@
                 </p>
 
                 <div class="tech-tags">
+
                     <span>Python</span>
                     <span>OOP</span>
                     <span>Logic Architecture</span>
+
                 </div>
 
-                <a href="https://github.com/YOUR_GITHUB_USERNAME"
-                   target="_blank"
-                   class="project-link">
+                <a
+                    href="https://github.com/gorsahakyan2301-web"
+                    target="_blank"
+                    class="project-link"
+                >
                     View Source Code &rarr;
                 </a>
 
             </div>
+
 
             <div class="project-card">
 
@@ -152,26 +182,29 @@
                 </h3>
 
                 <p>
-                    High-performance custom implementations of fundamental
-                    data structures (LinkedLists, FIFO Queues, Stacks)
-                    and algorithmic strategies (Sorting/Searching)
-                    written from scratch in Python and JavaScript
-                    to achieve optimal $O(1)$ and $O(\log n)$ performance.
+                    Custom implementations of fundamental
+                    data structures such as Linked Lists,
+                    FIFO Queues,
+                    Stacks,
+                    and sorting/searching algorithms
+                    written from scratch in Python and JavaScript.
                 </p>
 
                 <div class="tech-tags">
+
                     <span>Data Structures</span>
                     <span>Algorithms</span>
                     <span>JavaScript</span>
                     <span>Python</span>
+
                 </div>
 
                 <a
-                    href="https://hackerresume-prod.s3.us-east-1.amazonaws.com/resumes/gor_sahakyan_231/2b86d857-a118-4abe-861f-68338fdc24e5.pdf"
-                    class="btn"
+                    href="https://github.com/gorsahakyan2301-web"
                     target="_blank"
+                    class="project-link"
                 >
-                    View CV
+                    View Source Code &rarr;
                 </a>
 
             </div>
@@ -180,35 +213,47 @@
 
     </section>
 
+
+    <!-- CERTIFICATES -->
     <section id="certificates" class="section">
 
         <h2>Certifications</h2>
 
         <div class="skills-grid">
 
-            <div class="skill-card"
-                 style="text-align: left;">
+            <div
+                class="skill-card"
+                style="text-align: left;"
+            >
 
-                <h3 style="
-                    color: #38bdf8;
-                    margin-bottom: 0.5rem;
-                ">
+                <h3
+                    style="
+                        color: #38bdf8;
+                        margin-bottom: 0.5rem;
+                    "
+                >
                     Python (Basic) Certificate
                 </h3>
 
-                <p style="
-                    color: #94a3b8;
-                    font-size: 0.95rem;
-                    margin-bottom: 1rem;
-                ">
+                <p
+                    style="
+                        color: #94a3b8;
+                        font-size: 0.95rem;
+                        margin-bottom: 1rem;
+                    "
+                >
                     Issued by <strong>HackerRank</strong>
-                    • Verified test covering Data Structures,
-                    OOP, and Core Logic.
+                    • Verified test covering
+                    Data Structures,
+                    OOP,
+                    and Core Logic.
                 </p>
 
-                <a href="https://www.hackerrank.com/certificates/4c983545237d"
-                   target="_blank"
-                   class="project-link">
+                <a
+                    href="https://www.hackerrank.com/certificates/4c983545237d"
+                    target="_blank"
+                    class="project-link"
+                >
                     Verify Certificate &rarr;
                 </a>
 
@@ -218,46 +263,80 @@
 
     </section>
 
-    <section id="github-stats" class="section">
 
-        <h2>GitHub Activity</h2>
+    <!-- GITHUB -->
+   <section id="github-stats" class="section">
 
-        <div class="skills-grid"
-             style="
-                 grid-template-columns:
-                 repeat(auto-fit, minmax(300px, 1fr));
-             ">
+    <h2>GitHub Activity</h2>
 
-            <div class="skill-card">
+    <p class="github-intro">
+        Explore my projects, source code, and programming progress on GitHub.
+    </p>
 
-                <img
-                    src="https://github-readme-stats.vercel.app/api?username=gorsahakyan2301-web&show_icons=true&theme=tokyonight&hide_border=true"
-                    alt="GitHub Stats"
-                    style="
-                        width: 100%;
-                        border-radius: 8px;
-                    "
-                >
+    <div class="github-grid">
 
-            </div>
+        <div class="github-card">
+            <div class="github-icon">👨‍💻</div>
 
-            <div class="skill-card">
+            <h3>GitHub Profile</h3>
 
-                <img
-                    src="https://github-readme-stats.vercel.app/api/top-langs/?username=gorsahakyan2301-web&layout=compact&theme=tokyonight&hide_border=true"
-                    alt="Top Languages"
-                    style="
-                        width: 100%;
-                        border-radius: 8px;
-                    "
-                >
+            <p>
+                Check out my GitHub profile and follow my development journey.
+            </p>
 
-            </div>
-
+            <a
+                href="https://github.com/gorsahakyan2301-web"
+                target="_blank"
+                class="github-btn"
+            >
+                View Profile →
+            </a>
         </div>
 
-    </section>
 
+        <div class="github-card">
+            <div class="github-icon">📂</div>
+
+            <h3>My Repositories</h3>
+
+            <p>
+                Explore my Python, JavaScript, algorithms and web development projects.
+            </p>
+
+            <a
+                href="https://github.com/gorsahakyan2301-web?tab=repositories"
+                target="_blank"
+                class="github-btn"
+            >
+                View Repositories →
+            </a>
+        </div>
+
+
+        <div class="github-card">
+            <div class="github-icon">🚀</div>
+
+            <h3>Currently Building</h3>
+
+            <p>
+                Improving my skills through real projects, data structures,
+                algorithms and modern web development.
+            </p>
+
+            <a
+                href="#projects"
+                class="github-btn"
+            >
+                View Projects →
+            </a>
+        </div>
+
+    </div>
+
+</section>
+
+
+    <!-- CONTACT -->
     <section id="contact" class="section">
 
         <h2>Get In Touch</h2>
@@ -294,8 +373,8 @@
                 rows="5"
                 placeholder="Your Message"
                 required
-                class="form-input">
-            </textarea>
+                class="form-input"
+            ></textarea>
 
             <button
                 type="submit"
@@ -303,7 +382,8 @@
                 style="
                     border: none;
                     cursor: pointer;
-                ">
+                "
+            >
                 Send Message
             </button>
 
@@ -311,11 +391,18 @@
 
     </section>
 
+
     <footer>
-        <p>&copy; 2026 Gor. All rights reserved.</p>
+
+        <p>
+            &copy; 2026 Gor. All rights reserved.
+        </p>
+
     </footer>
 
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
     <script src="script.js"></script>
 
 </body>
